@@ -45,21 +45,26 @@ body {
 /*========================MAIN MENU===============================*/
 #main-menu .nav-bar { 
         list-style: none; 
-        margin-top: 20px;
-        margin-left: 90px;
+        margin-top: 10px;
+        margin-left: 80px;
         text-align: center;
         text-decoration: none;
+        position: relative;
 }
         
 #main-menu .nav-bar li { 
-    display:inline; 
-  
+    display: inline; 
+position: relative;
     list-style: none;
-     float: left;
-    padding-top: 10px
+    margin-left: auto;
+    padding-top: -10px
+  
 
     
 }
+
+#front-page {
+    position:fixed; top:2%; right:2%; }
 
 
 
@@ -69,10 +74,10 @@ body {
   text-shadow: 2px 2px 2px #ccc;
 	color: #ff80aa;
 	font-size: 25px;
-	position: relative;
-    margin-left: 200px;
-    margin-top: 1px;
-      padding:-10px 1px; 
+	position: auto;
+
+	   margin-right: 100px;
+      padding: 1px; 
 }
 
 
@@ -80,7 +85,7 @@ body {
 /*=====================Home INDEX==============*/
 
 .box { 
-  padding: 12px; 
+  padding: 10px; 
 
 
 }
